@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Sky Bet Horses</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="races">Races</string>
+    <string name="sorry_no_website">Sorry, we couldn\'t load this website.</string>
+    <string name="skybet_horse_link">https://m.skybet.com/horse-racing</string>
+    <string name="sky_bet_website">Sky Bet Website</string>
+    <string name="race">Race</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="form_colon">Form: %s</string>
+    <string name="yes_caps">YES</string>
+    <string name="no_caps">NO</string>
+    <string name="form">Form</string>
+    <string name="odds">Odds</string>
+    <string name="number">Number</string>
+    <string name="dash">-</string>
+    <string name="handicap_colon">Handicap:</string>
+    <string name="going_colon">Going:</string>
+    <string name="race_stage_colon">Race Stage:</string>
+    <string name="ride_count_colon">Ride Count:</string>
+    <string name="distance_colon">Distance:</string>
+    <string name="age_colon">Age:</string>
+    <string name="course_colon">Course:</string>
+    <string name="days_since_last_run_colon">Days since last run:</string>
+    <string name="sex_colon">Sex:</string>
+    <string name="foaled_colon">Foaled:</string>
+    <string name="sorry_msg">Sorry, we could not load the races. Please try again later.</string>
+</resources>

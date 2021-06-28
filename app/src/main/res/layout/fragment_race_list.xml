@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.races.RaceListFrag">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/race_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/list_item_race"/>
+    <ProgressBar
+        android:id="@+id/progress_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/sorry_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sorry_msg"
+        android:layout_gravity="center"
+        android:layout_margin="64dp"
+        android:gravity="center"
+        android:visibility="gone"/>
+</FrameLayout>
